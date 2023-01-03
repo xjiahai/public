@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T08:31:36.929Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="mfll5hwPchovGlOtcLCP" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-03T08:36:26.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ZvMcw2coZcp-hZuVCplj" version="20.7.4" type="github">
   <diagram id="_Wh75MOUyomlOcFxmmUr" name="Page-1">
     <mxGraphModel dx="2327" dy="833" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -262,6 +262,12 @@
         </mxCell>
         <mxCell id="vj4wjHJe30s7SKWgsXGc-121" value="数字业务中心用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#0000CC;strokeWidth=2;fillColor=default;opacity=10;" vertex="1" parent="1">
           <mxGeometry x="347" y="1974" width="30" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="vj4wjHJe30s7SKWgsXGc-156" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#bfbfbf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="1321" as="sourcePoint" />
+            <mxPoint x="75" y="1639" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
