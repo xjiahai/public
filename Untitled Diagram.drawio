@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T04:47:53.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="6EFgGJrkgxcmoccRB3et" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-03T04:53:09.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="FZxFgc1IvYVkD8bXloGR" version="20.7.4" type="github">
   <diagram id="_Wh75MOUyomlOcFxmmUr" name="Page-1">
     <mxGraphModel dx="1235" dy="646" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
         <mxCell id="vj4wjHJe30s7SKWgsXGc-7" value="Hive" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="vj4wjHJe30s7SKWgsXGc-6">
           <mxGeometry x="8" y="34" width="275" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="vj4wjHJe30s7SKWgsXGc-8" value="接口服务" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="vj4wjHJe30s7SKWgsXGc-6">
+        <mxCell id="vj4wjHJe30s7SKWgsXGc-8" value="接口服务【&lt;span&gt;竞彩（高额、销量）、即开（额度、转账、账单、库存、领票、退票、销量等）、&lt;/span&gt;&lt;span lang=&quot;EN-US&quot;&gt;IVT&lt;/span&gt;&lt;span&gt;报表、实体渠道等实时或&lt;/span&gt;&lt;span lang=&quot;EN-US&quot;&gt;T-1&lt;/span&gt;&lt;span&gt;接口】&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="vj4wjHJe30s7SKWgsXGc-6">
           <mxGeometry x="6" y="237" width="545" height="38" as="geometry" />
         </mxCell>
         <mxCell id="vj4wjHJe30s7SKWgsXGc-10" value="Impala（T-1）" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="vj4wjHJe30s7SKWgsXGc-6">
