@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T03:30:48.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YB8yr4T5yywdsklrVmn7" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T04:49:59.505Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="L_JIj2KTkTDm7EczAliU" version="20.7.4" type="github">
   <diagram id="_Wh75MOUyomlOcFxmmUr" name="Page-1">
     <mxGraphModel dx="2062" dy="686" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -311,31 +311,46 @@
         <mxCell id="vj4wjHJe30s7SKWgsXGc-179" value="HBase/Phoenix" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="vj4wjHJe30s7SKWgsXGc-172">
           <mxGeometry x="8" y="191" width="691" height="31" as="geometry" />
         </mxCell>
+        <mxCell id="vj4wjHJe30s7SKWgsXGc-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.621;entryY=0.984;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#bfbfbf;" edge="1" parent="1" source="vj4wjHJe30s7SKWgsXGc-187" target="vj4wjHJe30s7SKWgsXGc-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vj4wjHJe30s7SKWgsXGc-187" value="计算集群" style="swimlane;whiteSpace=wrap;html=1;container=0;fillColor=#e1d5e7;strokeColor=#9673a6;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="880" y="2205" width="722" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="vj4wjHJe30s7SKWgsXGc-188" value="Spark处理数字化上传数据【当前】1个" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="vj4wjHJe30s7SKWgsXGc-187">
+        <mxCell id="vj4wjHJe30s7SKWgsXGc-188" value="Spark处理数字化上传数据【新】1个" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="vj4wjHJe30s7SKWgsXGc-187">
           <mxGeometry x="63" y="39" width="584" height="31" as="geometry" />
         </mxCell>
         <mxCell id="vj4wjHJe30s7SKWgsXGc-189" value="新集群" style="swimlane;whiteSpace=wrap;html=1;container=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="880" y="1923" width="722" height="242" as="geometry" />
-        </mxCell>
-        <mxCell id="vj4wjHJe30s7SKWgsXGc-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.701;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#bfbfbf;" edge="1" parent="vj4wjHJe30s7SKWgsXGc-189" source="vj4wjHJe30s7SKWgsXGc-194">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="500.8029999999999" y="58.83699999999999" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="880" y="1905" width="722" height="205" as="geometry" />
         </mxCell>
         <mxCell id="vj4wjHJe30s7SKWgsXGc-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#bfbfbf;" edge="1" parent="vj4wjHJe30s7SKWgsXGc-189" source="vj4wjHJe30s7SKWgsXGc-194" target="vj4wjHJe30s7SKWgsXGc-195">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vj4wjHJe30s7SKWgsXGc-194" value="Spark/MR行为日志及业务数据处理任务45个" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="vj4wjHJe30s7SKWgsXGc-189">
-          <mxGeometry x="62" y="109" width="584" height="31" as="geometry" />
+        <mxCell id="vj4wjHJe30s7SKWgsXGc-194" value="Shell下载并上传Hdfs（旧）" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="vj4wjHJe30s7SKWgsXGc-189">
+          <mxGeometry x="56" y="64.5" width="209" height="31" as="geometry" />
         </mxCell>
         <mxCell id="vj4wjHJe30s7SKWgsXGc-195" value="HDFS" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="vj4wjHJe30s7SKWgsXGc-189">
-          <mxGeometry x="8" y="191" width="313" height="31" as="geometry" />
+          <mxGeometry x="4" y="146.5" width="313" height="31" as="geometry" />
         </mxCell>
         <mxCell id="vj4wjHJe30s7SKWgsXGc-196" value="Hive" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="vj4wjHJe30s7SKWgsXGc-189">
-          <mxGeometry x="352" y="191" width="313" height="31" as="geometry" />
+          <mxGeometry x="348" y="146.5" width="313" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="vj4wjHJe30s7SKWgsXGc-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#bfbfbf;" edge="1" parent="vj4wjHJe30s7SKWgsXGc-189" source="vj4wjHJe30s7SKWgsXGc-202" target="vj4wjHJe30s7SKWgsXGc-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vj4wjHJe30s7SKWgsXGc-202" value="Shell下载并解压上传Hdfs（新）" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="vj4wjHJe30s7SKWgsXGc-189">
+          <mxGeometry x="373" y="64.5" width="209" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="vj4wjHJe30s7SKWgsXGc-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.222;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#bfbfbf;" edge="1" parent="1" source="vj4wjHJe30s7SKWgsXGc-195" target="vj4wjHJe30s7SKWgsXGc-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vj4wjHJe30s7SKWgsXGc-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#bfbfbf;" edge="1" parent="1" source="vj4wjHJe30s7SKWgsXGc-200" target="vj4wjHJe30s7SKWgsXGc-189">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1208" y="1857.0589204676012" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vj4wjHJe30s7SKWgsXGc-200" value="开放平台SFtp" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Application_Gateway.svg;" vertex="1" parent="1">
+          <mxGeometry x="1219" y="1785" width="42" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
